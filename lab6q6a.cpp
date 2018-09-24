@@ -46,7 +46,7 @@ int sumEvenNumber(int a,int b){
 int main(){
 	int c,d;
 	//ask the user for input and gather it
-		cout<< "please input two even numbers. We'll find the sum of all the even numbers between them."<<endl;
+		cout<< "please input two numbers. We'll find the sum of all the even numbers between them."<<endl;
 		cin>>c>>d;
 	//call the function
 	sumEvenNumber(c,d);
