@@ -3,6 +3,7 @@ using namespace std;
 //to declare the variables
 
 //to define the function
+//to initialize the variables
 int sumOddNumber(int a,int b){
 	
 	if(a%2==0 && b%2==0){
