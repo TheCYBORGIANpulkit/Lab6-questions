@@ -18,7 +18,7 @@ int sumEvenNumber(int a,int b){
 	}
 	else if(a%2==1 && b%2==0){
 		int sumEven, i, s;
-		sumEven=s, i=a, s=0;
+		sumEven=s, i=a+1, s=0;
 		//using loop adding the even numbers from a to b
 		while(i<=b && i>=a){
 			s=s+i;i=i+2;
@@ -36,7 +36,7 @@ int sumEvenNumber(int a,int b){
 	}
 	if(a%2==1 && b%2==1){
 		int sumEven, i, s;
-		sumEven=s, i=a, s=0;
+		sumEven=s, i=a+1, s=0;
 		//using loop adding the even numbers from a to b
 		while(i<=b && i>=a){
 			s=s+i;i=i+2;
