@@ -3,6 +3,8 @@ using namespace std;
 //to declare the variables
 
 //to define the function
+//to declare the sumEven
+//to initialize and declare the variables
 int sumEvenNumber(int a,int b){
 	
 	if(a%2==0 && b%2==0){
